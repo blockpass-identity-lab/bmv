@@ -80,15 +80,3 @@ if __name__ == "__main__":
     print("modified3.png binary hash: {0}; hd: {1};  match: {2}".format(modified3, hd3, isMatch(hd3)))
     print("benign.png binary hash:    {0}; hd: {1}; match: {2}".format(benign, hd4, isMatch(hd4)))
     print("benign2.jpg binary hash:   {0}; hd: {1}; match: {2}".format(benign2, hd5, isMatch(hd5)))
-
-
-
-
-
-
-
-
-
-
-
-
