@@ -31,3 +31,15 @@ modified3.png binary hash: [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0
 benign.png binary hash:    [0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1]; hd: 18; match: False
 benign2.jpg binary hash:   [0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0]; hd: 16; match: False
 ```
+
+Table of images and results:
+
+| Name          | Image (resized to 128x128)                                                | Hamming Distance | Match |
+|---------------|---------------------------------------------------------------------------|------------------|-------|
+| malicious.png | <img src="img/malicious.png" alt="malicious.png" title="malicious.png" width="128" height="128" /> |  |  |
+|               |                                                                           |                  |       |
+| modified1.png | <img src="img/modified1.png" alt="modified1.png" title="modified1.png" width="128" height="128" /> | 2 | True |
+| modified2.png | <img src="img/modified2.png" alt="modified2.png" title="modified2.png" width="128" height="128" /> | 0 | True |
+| modified3.png | <img src="img/modified3.png" alt="modified3.png" title="modified3.png" width="128" height="128" /> | 0 | True |
+| benign.png | <img src="img/benign.png" alt="benign.png" title="benign.png" width="128" height="128" /> | 18 | False |
+| benign2.jpg | <img src="img/benign2.jpg" alt="benign2.jpg" title="benign2.jpg" width="128" height="128" /> | 16 | False |
